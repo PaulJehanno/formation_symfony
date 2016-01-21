@@ -1,8 +1,8 @@
+set :branch, 'preprod'
 
-#set :branch, 'master'
 set :sudo, 'false'
 set :ssh_user, 'ubuntu'
-set :deploy_to, '/var/www/admin-myfirstsymfonyproject.com'
+set :deploy_to, '/home/ubuntu/admin-myfirstsymfonyproject.com'
 
 server '62.4.23.208', user: fetch(:ssh_user), roles: %w{app}
 
