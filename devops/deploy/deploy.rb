@@ -1,7 +1,10 @@
 # config valid only for current version of Capistrano
 lock '3.4.0'
 
-set :deploy_to, "/var/www/tywin-project"
+set :application, 'first_symfony'
+set :repo_url, 'git@github.com:theodo/business-immo-directory.git'
+
+set :deploy_to, "/var/www/formation_symfony"
 #set :repo_url, 'git@github.com:fansible/tywin.git'
 set :repo_url, 'git@github.com:PaulJehanno/formation_symfony.git'
 

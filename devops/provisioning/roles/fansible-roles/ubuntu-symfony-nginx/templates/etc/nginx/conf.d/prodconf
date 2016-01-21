@@ -2,7 +2,7 @@ server {
     listen      {{ port }};
 
     server_name {{ inventory_hostname }};
-    root        /var/www/{{ project_name }}/current/web;
+    root        /home/ubuntu/{{ project_name }}/current/web;
 
     error_log /var/log/nginx/{{ project_name }}.error.log;
     access_log /var/log/nginx/{{ project_name }}.access.log;
