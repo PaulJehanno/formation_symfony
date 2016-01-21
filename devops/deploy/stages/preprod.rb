@@ -1,5 +1,5 @@
+set :branch, 'preprod'
 
-#set :branch, 'master'
 set :sudo, 'false'
 set :ssh_user, 'ubuntu'
 set :deploy_to, '/var/www/admin-myfirstsymfonyproject.com'

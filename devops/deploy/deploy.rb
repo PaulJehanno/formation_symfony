@@ -3,7 +3,7 @@ lock '3.4.0'
 
 set :deploy_to, "/var/www/tywin-project"
 #set :repo_url, 'git@github.com:fansible/tywin.git'
-set :repo_url, 'git@github.com:CHANGEME/CHANGEME.git'
+set :repo_url, 'git@github.com:PaulJehanno/formation_symfony.git'
 
 set :stages, %w(prod)
 
@@ -14,12 +14,12 @@ set :symfony_console_path, 'app/console'
 set :linked_files, fetch(:linked_files, []).push('app/config/parameters.yml')
 set :linked_dirs, [fetch(:log_path), "app/sessions", "web/uploads"]
 
-set :ssh_user, 'www-data'
-set :ssh_options, {
-  forward_agent: true,
-}
+#set :ssh_user, 'www-data'
+#set :ssh_options, {
+#  forward_agent: true,
+#}
 
-set :branch, 'master'
-set :keep_releases, 3
+#set :branch, 'preprod'
+set :keep_releases, 5
 
 set :composer_install_flags, '--prefer-dist --no-interaction --optimize-autoloader'
