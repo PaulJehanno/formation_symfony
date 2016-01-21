@@ -78,7 +78,7 @@
         <entry file="file://$PROJECT_DIR$/devops/deploy/stages/preprod.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.05940594">
-              <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
+              <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -342,7 +342,7 @@
     <entry file="file://$PROJECT_DIR$/devops/deploy/stages/preprod.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.05940594">
-          <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
+          <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
           <folding />
         </state>
       </provider>
